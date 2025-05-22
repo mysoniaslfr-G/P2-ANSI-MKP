@@ -1,0 +1,582 @@
+DEBUG - 2025-05-17 14:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-17 14:55:39 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: mahasiswa/detail/26]
+in APPPATH\Views\mahasiswa\detail.php on line 54.
+ 1 APPPATH\Views\mahasiswa\detail.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\detail.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/detail', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(102): view('mahasiswa/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('26')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 14:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:07:02 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:09:33 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('26')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:09:33 --> ErrorException: Undefined array key "id_petugas"
+[Method: GET, Route: mahasiswa/edit/26]
+in APPPATH\Views\mahasiswa\edit.php on line 66.
+ 1 APPPATH\Views\mahasiswa\edit.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_petugas"', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(186): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('26')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:12:46 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('26')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:15:39 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(36): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:19:06 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:19:13 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:19:16 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:19:21 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:20:11 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:20:25 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:20:29 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:22:22 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(36): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:22:33 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:28:49 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:34:27 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:36:29 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:36:58 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:37:38 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:37:38 --> ErrorException: Undefined variable $semesterAktif
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Views\mahasiswa\edit.php on line 92.
+ 1 APPPATH\Views\mahasiswa\edit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesterAktif', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(186): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:38:10 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:40:01 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:40:01 --> ErrorException: Undefined variable $semesterAktif
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Views\mahasiswa\edit.php on line 94.
+ 1 APPPATH\Views\mahasiswa\edit.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesterAktif', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(186): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:40:59 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:40:59 --> ErrorException: Undefined variable $pembayaranModel
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Controllers\MahasiswaController.php on line 187.
+ 1 APPPATH\Controllers\MahasiswaController.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pembayaranModel', 'D:\\xampp\\htdocs\\spp\\app\\Controllers\\MahasiswaController.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:42:04 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:42:04 --> ErrorException: Undefined variable $semesterAktif
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Views\mahasiswa\edit.php on line 94.
+ 1 APPPATH\Views\mahasiswa\edit.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesterAktif', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(192): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:42:06 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:42:06 --> ErrorException: Undefined variable $semesterAktif
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Views\mahasiswa\edit.php on line 94.
+ 1 APPPATH\Views\mahasiswa\edit.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesterAktif', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(192): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:43:13 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+CRITICAL - 2025-05-17 15:43:13 --> ErrorException: Undefined variable $semesterAktif
+[Method: GET, Route: mahasiswa/edit/27]
+in APPPATH\Views\mahasiswa\edit.php on line 94.
+ 1 APPPATH\Views\mahasiswa\edit.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesterAktif', 'D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php', 94)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\spp\\app\\Views\\mahasiswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(193): view('mahasiswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:43:47 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:43:50 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:44:31 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-17 15:44:33 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\spp\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\spp\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(177): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\spp\\public\\index.php')
+DEBUG - 2025-05-17 15:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 15:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-17 16:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
