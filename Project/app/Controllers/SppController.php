@@ -10,30 +10,42 @@ class SppController extends BaseController
         // Membuat instance dari SppModel
         $sppModel = new SppModel();
 
-        // Mengambil semua data dari tabel spp
-        $data['spp'] = $sppModel->findAll();
+        // Mengambil semua data dari tabel spp dengan kode prodi
+        $data['spp'] = $sppModel->getAllSppWithProdi();
 
         // Memanggil view dan mengirimkan data 'spp'
         return view('spp/home', $data);
     }
 
+    // ===========================
+    // FUNGSI UNTUK MENAMBAH DATA
+    // ===========================
     public function create()
     {
+        // Membuat instance dari model Jurusan
+        $jurusanModel = new \App\Models\JurusanModel(); // Pastikan Anda memiliki model JurusanModel
+        $data['jurusan'] = $jurusanModel->findAll(); // Mengambil semua data jurusan
+
         // Menampilkan halaman form untuk menambah data
-        return view('spp/create');
+        return view('spp/create', $data);
     }
 
+    // ===========================
+    // FUNGSI UNTUK MENYIMPAN DATA
+    // ===========================
     public function store()
     {
         // Validasi data yang diterima
         if ($this->validate([
             'tahun' => 'required|numeric',
             'nominal' => 'required|numeric',
+            'id_jurusan' => 'required|integer', // Menambahkan validasi untuk id_jurusan
         ])) {
             // Ambil data dari form
             $data = [
                 'tahun' => $this->request->getPost('tahun'),
                 'nominal' => $this->request->getPost('nominal'),
+                'id_jurusan' => $this->request->getPost('id_jurusan'), // Menambahkan id_jurusan
             ];
 
             // Masukkan data ke dalam model SppModel
@@ -50,6 +62,9 @@ class SppController extends BaseController
         }
     }
 
+    // ===========================
+    // FUNGSI UNTUK MENGEDIT DATA
+    // ===========================
     public function edit($id)
     {
         // Membuat instance dari SppModel
@@ -63,21 +78,30 @@ class SppController extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
 
+        // Membuat instance dari model Jurusan
+        $jurusanModel = new \App\Models\JurusanModel(); // Pastikan Anda memiliki model JurusanModel
+        $data['jurusan'] = $jurusanModel->findAll(); // Mengambil semua data jurusan
+
         // Menampilkan halaman edit dan mengirimkan data
         return view('spp/edit', $data);
     }
 
+    // ===========================
+    // FUNGSI UNTUK MEMPERBARUI DATA
+    // ===========================
     public function update($id)
     {
         // Validasi data yang diterima
         if ($this->validate([
             'tahun' => 'required|numeric',
             'nominal' => 'required|numeric',
+            'id_jurusan' => 'required|integer', // Menambahkan validasi untuk id_jurusan
         ])) {
             // Ambil data dari form
             $data = [
                 'tahun' => $this->request->getPost('tahun'),
                 'nominal' => $this->request->getPost('nominal'),
+                'id_jurusan' => $this->request->getPost('id_jurusan'), // Menambahkan id_jurusan
             ];
 
             // Membuat instance dari SppModel
@@ -96,6 +120,9 @@ class SppController extends BaseController
         }
     }
 
+    // ===========================
+    // FUNGSI UNTUK MENGHAPUS DATA
+    // ===========================
     public function delete($id)
     {
         // Membuat instance dari SppModel

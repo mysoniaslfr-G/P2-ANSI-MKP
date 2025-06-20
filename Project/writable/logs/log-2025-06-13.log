@@ -1,0 +1,1372 @@
+DEBUG - 2025-06-13 00:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 00:05:23 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 00:05:26 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 00:05:28 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 00:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 00:08:02 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-13 00:08:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:08:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:08:02 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 00:11:28 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-13 00:11:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:11:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:11:28 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 00:11:29 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-13 00:11:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:11:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:11:29 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 00:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 00:30:58 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembaya...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-13 00:30:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:30:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 00:30:58 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 01:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 01:21:41 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembaya...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-13 01:21:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 01:21:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 01:21:41 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `transaksi`.`jumlah_bayar`, `transaksi`.`tgl_bayar`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+LEFT JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+LEFT JOIN `transaksi` ON `transaksi`.`id_pembayaran` = `pembayaran`.`id_pembayaran`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembayaranModel.php(72): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 01:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 01:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 01:44:14 --> ErrorException: Undefined array key "id_pembayaran"
+[Method: GET, Route: pembayaran/input]
+in APPPATH\Views\pembayaran\input.php on line 26.
+ 1 APPPATH\Views\pembayaran\input.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pembayaran"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\input.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\input.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pembayaran/input', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(78): view('pembayaran/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->input()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 02:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 02:52:55 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(294): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 02:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 02:53:45 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(294): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 02:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 02:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:29:04 --> ErrorException: Undefined array key "kode_prodi"
+[Method: GET, Route: spp]
+in APPPATH\Views\spp\home.php on line 26.
+ 1 APPPATH\Views\spp\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('spp/home', [], true)
+ 5 APPPATH\Controllers\SppController.php(17): view('spp/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SppController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SppController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:30:31 --> ErrorException: Undefined array key "kode_prodi"
+[Method: GET, Route: spp]
+in APPPATH\Views\spp\home.php on line 26.
+ 1 APPPATH\Views\spp\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('spp/home', [], true)
+ 5 APPPATH\Controllers\SppController.php(17): view('spp/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SppController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SppController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:30:33 --> ErrorException: Undefined array key "kode_prodi"
+[Method: GET, Route: spp]
+in APPPATH\Views\spp\home.php on line 26.
+ 1 APPPATH\Views\spp\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\spp\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('spp/home', [], true)
+ 5 APPPATH\Controllers\SppController.php(17): view('spp/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SppController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SppController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 03:43:22 --> mysqli_sql_exception: Unknown column 'jurusan.nama_jurusan' in 'field list' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `mahasis...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\MahasiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\MahasiswaController.php(30): App\Models\MahasiswaModel->getMahasiswaJoinAll()
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\MahasiswaController->index()
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-13 03:43:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jurusan.nama_jurusan' in 'field list'
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MahasiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MahasiswaController.php(30): App\Models\MahasiswaModel->getMahasiswaJoinAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 03:43:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jurusan.nama_jurusan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MahasiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MahasiswaController.php(30): App\Models\MahasiswaModel->getMahasiswaJoinAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 03:43:22 --> [Caused by] mysqli_sql_exception: Unknown column 'jurusan.nama_jurusan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.*, `spp`.`tahun`, `spp`.`nominal`, `jurusan`.`nama_jurusan`, `users`.`username`, `users`.`gambar`
+FROM `mahasiswa`
+JOIN `spp` ON `spp`.`id_spp` = `mahasiswa`.`id_spp`
+JOIN `jurusan` ON `jurusan`.`id_jurusan` = `mahasiswa`.`id_jurusan`
+JOIN `users` ON `users`.`id_user` = `mahasiswa`.`id_user`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MahasiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MahasiswaController.php(30): App\Models\MahasiswaModel->getMahasiswaJoinAll()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:51:17 --> ErrorException: Undefined array key "kode_prodi"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswa\home.php on line 30.
+ 1 APPPATH\Views\mahasiswa\home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_prodi"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\home.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/home', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(31): view('mahasiswa/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 03:52:53 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-13 03:52:53 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: mahasiswa/create]
+in APPPATH\Views\mahasiswa\create.php on line 56.
+ 1 APPPATH\Views\mahasiswa\create.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\create.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/create', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(42): view('mahasiswa/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:53:42 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: mahasiswa/detail/27]
+in APPPATH\Views\mahasiswa\detail.php on line 15.
+ 1 APPPATH\Views\mahasiswa\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/detail', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(177): view('mahasiswa/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 03:57:05 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 03:57:22 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: mahasiswa/detail/27]
+in APPPATH\Views\mahasiswa\detail.php on line 15.
+ 1 APPPATH\Views\mahasiswa\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\mahasiswa\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('mahasiswa/detail', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(177): view('mahasiswa/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 03:59:38 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(271): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 03:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 03:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 04:00:04 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: pembayaran/show]
+in APPPATH\Views\pembayaran\show.php on line 14.
+ 1 APPPATH\Views\pembayaran\show.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pembayaran/show', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(51): view('pembayaran/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 04:02:18 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(193): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('40')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 04:02:39 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(193): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('40')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 04:03:20 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 04:54:37 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(187): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('40')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 04:56:25 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: pembayaran/show]
+in APPPATH\Views\pembayaran\show.php on line 14.
+ 1 APPPATH\Views\pembayaran\show.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pembayaran/show', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(51): view('pembayaran/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 04:57:34 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: pembayaran/show]
+in APPPATH\Views\pembayaran\show.php on line 14.
+ 1 APPPATH\Views\pembayaran\show.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\pembayaran\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pembayaran/show', [], true)
+ 5 APPPATH\Controllers\Pembayaran.php(51): view('pembayaran/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 04:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 04:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:00:36 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(187): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:01:11 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(187): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:19:02 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:31:21 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(326): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:36:08 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(236): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->edit('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:39:25 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:40:09 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:41:31 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:42:18 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:42:50 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:43:19 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:44:05 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:44:21 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:44:29 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(42): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:49:11 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(42): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:49:34 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(335): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:43 --> ID Mahasiswa: 27
+DEBUG - 2025-06-13 05:49:43 --> ID Petugas: 
+DEBUG - 2025-06-13 05:49:43 --> ID SPP: 6
+DEBUG - 2025-06-13 05:49:43 --> Semesters: ["Semester 3","Semester 4"]
+DEBUG - 2025-06-13 05:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:49:43 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(335): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:49:46 --> ID Mahasiswa: 27
+DEBUG - 2025-06-13 05:49:46 --> ID Petugas: 
+DEBUG - 2025-06-13 05:49:46 --> ID SPP: 6
+DEBUG - 2025-06-13 05:49:46 --> Semesters: null
+DEBUG - 2025-06-13 05:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:49:46 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(335): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:56:59 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:57:09 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(328): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 05:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 05:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 06:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 06:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 06:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 06:00:56 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(277): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 06:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 06:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 06:01:04 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(277): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-13 06:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 06:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 06:01:07 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(277): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->fromAdd('27')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')

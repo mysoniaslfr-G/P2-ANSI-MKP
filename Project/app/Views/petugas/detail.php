@@ -18,12 +18,13 @@
             <?= esc($data['level']) ?>
           </p>
 
-          <a href="<?= base_url('/petugas') ?>" class="btn btn-warning btn-block"><b>Kembali</b></a>
+        
             <a href="<?= base_url('petugas/reset/' . $data['id_user']) ?>" 
-                class="btn btn-info btn-block" 
+                class="btn btn-warning btn-block" 
                 onclick="return confirm('Yakin ingin mereset password user ini?')">
                 Reset Password
             </a>
+            <a href="<?= base_url('/petugas') ?>" class="btn btn-danger btn-block"><b>Kembali</b></a>
         </div>
       </div>
     </div>

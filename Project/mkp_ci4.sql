@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Bulan Mei 2025 pada 17.37
+-- Waktu pembuatan: 20 Jun 2025 pada 14.36
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -28,18 +28,19 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `jurusan` (
-  `id_jurusan` int(11) NOT NULL,
-  `nama_jurusan` varchar(25) DEFAULT NULL,
-  `konsentrasi` varchar(50) DEFAULT NULL
+  `kode_prodi` varchar(255) DEFAULT NULL,
+  `nama_prodi` varchar(255) NOT NULL,
+  `id_jurusan` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `jurusan`
 --
 
-INSERT INTO `jurusan` (`id_jurusan`, `nama_jurusan`, `konsentrasi`) VALUES
-(6, 'Ilmu Komputer', 'Pemrograman'),
-(7, 'Ilmu Komputer', 'Data Sains');
+INSERT INTO `jurusan` (`kode_prodi`, `nama_prodi`, `id_jurusan`) VALUES
+('FTIK201', 'Ilmu Komputer', 6),
+('FTIK202', 'Teknik Sipil', 7),
+('FK301', 'Ilmu Gizi', 8);
 
 -- --------------------------------------------------------
 
@@ -63,9 +64,9 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id_mahasiswa`, `id_user`, `id_spp`, `id_jurusan`, `nim`, `nama_mahasiswa`, `alamat_mahasiswa`, `no_telepon_mahasiswa`) VALUES
-(27, 39, 6, 6, '12345', 'Nur Anisa', 'Sape', '99999'),
-(40, 3, 7, 6, '123', 'Fera Febrianti', 'Rabangodu Utara', '11111'),
-(43, 42, 6, 6, '1234', 'Maria Ulfa', 'Sape', '22222');
+(27, 39, 6, 6, 'B02220021', 'Nur Anisa', 'Sape', '99999'),
+(40, 3, 9, 6, 'B02220125', 'Fera Febrianti', 'Rabangodu Utara', '11111'),
+(43, 42, 8, 8, 'C02220001', 'Umratul Fatiha', 'Kel. Nungga', '22222');
 
 -- --------------------------------------------------------
 
@@ -75,25 +76,22 @@ INSERT INTO `mahasiswa` (`id_mahasiswa`, `id_user`, `id_spp`, `id_jurusan`, `nim
 
 CREATE TABLE `pembayaran` (
   `id_pembayaran` int(11) NOT NULL,
-  `id_petugas` int(11) NOT NULL,
-  `id_spp` int(11) NOT NULL,
   `id_mahasiswa` int(11) NOT NULL,
-  `tgl_bayar` date DEFAULT NULL,
-  `semester` varchar(20) DEFAULT NULL,
-  `jumlah_bayar` int(11) DEFAULT NULL,
-  `bukti_bayar` varchar(255) DEFAULT NULL,
-  `status_bayar` varchar(225) DEFAULT NULL
+  `id_spp` int(11) NOT NULL,
+  `semester` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `pembayaran`
 --
 
-INSERT INTO `pembayaran` (`id_pembayaran`, `id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status_bayar`) VALUES
-(126, 9, 6, 27, NULL, 'Semester 1', NULL, NULL, NULL),
-(127, 9, 6, 27, NULL, 'Semester 2', NULL, NULL, NULL),
-(133, 8, 7, 27, NULL, 'Semester 3', NULL, NULL, NULL),
-(134, 8, 7, 27, NULL, 'Semester 4', NULL, NULL, NULL);
+INSERT INTO `pembayaran` (`id_pembayaran`, `id_mahasiswa`, `id_spp`, `semester`) VALUES
+(5, 40, 9, 'Semester 5'),
+(6, 40, 9, 'Semester 6'),
+(18, 27, 6, 'Semester 3'),
+(19, 27, 6, 'Semester 4'),
+(20, 43, 8, 'Semester 5'),
+(21, 43, 8, 'Semester 6');
 
 -- --------------------------------------------------------
 
@@ -127,6 +125,7 @@ INSERT INTO `petugas` (`id_petugas`, `id_user`, `nama_petugas`, `alamat_petugas`
 
 CREATE TABLE `spp` (
   `id_spp` int(11) NOT NULL,
+  `id_jurusan` int(11) DEFAULT NULL,
   `tahun` varchar(10) DEFAULT NULL,
   `nominal` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -135,9 +134,42 @@ CREATE TABLE `spp` (
 -- Dumping data untuk tabel `spp`
 --
 
-INSERT INTO `spp` (`id_spp`, `tahun`, `nominal`) VALUES
-(6, '2023', 2700000),
-(7, '2025', 2000000);
+INSERT INTO `spp` (`id_spp`, `id_jurusan`, `tahun`, `nominal`) VALUES
+(6, 6, '2023', 2700000),
+(7, 7, '2025', 2000000),
+(8, 8, '2025', 2500000),
+(9, 6, '2025', 2700000);
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `transaksi`
+--
+
+CREATE TABLE `transaksi` (
+  `id_transaksi` int(11) NOT NULL,
+  `id_pembayaran` int(11) NOT NULL,
+  `id_petugas` int(11) DEFAULT NULL,
+  `tgl_bayar` date DEFAULT NULL,
+  `jumlah_bayar` int(11) DEFAULT NULL,
+  `bukti_bayar` varchar(255) DEFAULT NULL,
+  `status` enum('pending','valid','ditolak') DEFAULT 'pending'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `transaksi`
+--
+
+INSERT INTO `transaksi` (`id_transaksi`, `id_pembayaran`, `id_petugas`, `tgl_bayar`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES
+(5, 5, 11, '2025-06-14', 1000000, '1749908121_9164c88b1ffa3a3dcb12.jpg', 'valid'),
+(6, 6, 39, '2025-06-15', 700000, '1749972866_3c753d5c04c2f663781b.png', 'pending'),
+(14, 18, 11, '2025-06-15', 2000000, '1749970149_4d75cb5a2e695285a42d.jpg', 'pending'),
+(15, 19, 11, '2025-06-15', 600000, '1749975482_f39574e8e40a63522c4d.jpg', 'valid'),
+(16, 20, 11, '2025-06-19', 1000000, '1750301879_24e0a32f782c7f5b3558.png', 'ditolak'),
+(17, 21, 1, NULL, 0, NULL, 'pending'),
+(21, 5, NULL, '2025-06-15', 700000, '1749973662_05a7f19608ad1a10ffe8.jpg', 'pending'),
+(22, 5, NULL, '2025-06-15', 1000000, '1749973707_7dd30e89d1271e8e80a1.png', 'pending'),
+(23, 18, 1, '2025-06-15', 700000, '1749973782_b814f882dd9f71b83734.jpg', 'ditolak');
 
 -- --------------------------------------------------------
 
@@ -159,16 +191,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id_user`, `username`, `password`, `level`, `gambar`, `remember_token`) VALUES
-(1, 'sonia', '$2y$10$pZVGX.NGGiobjUIJQRC0oOaPA0jsC87m7gRRdZlgGCY0WFuN6Ltru', 'Admin', '1747809269_cf720c55c0b136ed529e.jpg', 'af6636b48c20fafd8bd77833d72466b4b641605a13a1d9f73757cafabe30c5ab'),
-(2, 'p1', '$2y$10$8vrcYasqP13xBS0I6.pn8.mAhB5wbfHWncMAy57vruVuaQtbSdkHe', 'Petugas', '1747840795_4911959ba79931700303.png', NULL),
-(3, '123', '$2y$10$pZVGX.NGGiobjUIJQRC0oOaPA0jsC87m7gRRdZlgGCY0WFuN6Ltru', 'Mahasiswa', NULL, NULL),
-(11, 'p2', '$2y$10$kpPds5oaJ108Gc032YRRleNWvawNr7mWWo3Euzk631FOZMAxqsYEy', 'Petugas', 'avatar3.png', NULL),
-(23, 'p3', '$2y$10$Hk/XfkZ0lnPWUJ5eNmt6HOiDNrsv5JUEc7ar4wwANhH4j/cf8PmW6', 'Petugas', 'avatar3.png', NULL),
-(39, '12345', '$2y$10$gtdUXrz8HWCNQisyrnmKe.Ps7JKl48/rKPOnOiy7cNZzByjqQPdvu', 'Mahasiswa', 'avatar2.png', NULL),
-(42, '1234', '$2y$10$RPDDnUsAHx1Zew7R3t6BWe4YaM.WQo9A.6vqqRnD3oVlVoLq/FRgm', 'Mahasiswa', 'avatar2.png', NULL),
-(43, '1234', '$2y$10$j6YpgWO4dfXhbEHmLSfkReRpEQWorpyF8oeFJPXw/y6yJO2p0V1L.', 'Mahasiswa', 'avatar2.png', NULL),
-(44, '1234', '$2y$10$4iEV.c1Vlf9pOEMcbHPT7u96dN7gzCBUgBSyxzJuq3mZO.egzWjyq', 'Mahasiswa', 'avatar2.png', NULL),
-(45, '12', '$2y$10$h//zYHm8coxTy5TTvptD3uCOu/UEPrEXRQGZzq08A8wQkpUf/17/e', 'Mahasiswa', 'avatar2.png', NULL);
+(1, 'sonia', '$2y$10$pZVGX.NGGiobjUIJQRC0oOaPA0jsC87m7gRRdZlgGCY0WFuN6Ltru', 'Admin', '1747809269_cf720c55c0b136ed529e.jpg', NULL),
+(2, 'zumhur', '$2y$10$TJkdXQ5tdNMlBUEU8RQ7gOG/beSuT.a4jiIjvNyypVfLJ5EqxOOIe', 'Petugas', '1747840795_4911959ba79931700303.png', NULL),
+(3, 'B02220125', '$2y$10$nOQFgn2X9W0xGjZk2eB4quf2IqupAVB5Reh7VDv.RxL7ckRA0pPgG', 'Mahasiswa', '1748011075_cbee80feb76b636f7bca.jpg', NULL),
+(11, 'Dina', '$2y$10$bL.Ldd3Rwdr7s20lAsMwG.zDOrjxTWUzvskWZ03bfZk9gKEGYAQSS', 'Petugas', 'avatar3.png', NULL),
+(23, 'Fitria', '$2y$10$i7kK9R73wLEe0zh3UdNZw..xZlLS00KhWbZ.vbTM55udhVCVnuFyC', 'Petugas', 'avatar3.png', NULL),
+(39, 'B02220021', '$2y$10$ZT1kNzsdsDDgTOrgl8TJ/et.UlcKdB9kMwmgTkwG93ZvQYN3WBrIK', 'Mahasiswa', 'avatar2.png', NULL),
+(42, 'C02220001', '$2y$10$rwaaZY/87lmzKzdTDjeDq.7dyh4EMZEsi3RXRS2nW9Ew6kTqbRdyC', 'Mahasiswa', 'avatar2.png', NULL);
 
 --
 -- Indexes for dumped tables
@@ -196,9 +225,8 @@ ALTER TABLE `mahasiswa`
 --
 ALTER TABLE `pembayaran`
   ADD PRIMARY KEY (`id_pembayaran`),
-  ADD KEY `id_petugas` (`id_petugas`),
-  ADD KEY `id_spp` (`id_spp`),
-  ADD KEY `id_mahasiswa` (`id_mahasiswa`);
+  ADD KEY `fk_mahasiswa` (`id_mahasiswa`),
+  ADD KEY `fk_spp` (`id_spp`);
 
 --
 -- Indeks untuk tabel `petugas`
@@ -211,7 +239,16 @@ ALTER TABLE `petugas`
 -- Indeks untuk tabel `spp`
 --
 ALTER TABLE `spp`
-  ADD PRIMARY KEY (`id_spp`);
+  ADD PRIMARY KEY (`id_spp`),
+  ADD KEY `fk_jurusan` (`id_jurusan`);
+
+--
+-- Indeks untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  ADD PRIMARY KEY (`id_transaksi`),
+  ADD KEY `id_pembayaran` (`id_pembayaran`),
+  ADD KEY `fk_transaksi_petugas` (`id_petugas`);
 
 --
 -- Indeks untuk tabel `users`
@@ -227,7 +264,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `jurusan`
 --
 ALTER TABLE `jurusan`
-  MODIFY `id_jurusan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_jurusan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT untuk tabel `mahasiswa`
@@ -239,7 +276,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT untuk tabel `pembayaran`
 --
 ALTER TABLE `pembayaran`
-  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=135;
+  MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT untuk tabel `petugas`
@@ -251,7 +288,13 @@ ALTER TABLE `petugas`
 -- AUTO_INCREMENT untuk tabel `spp`
 --
 ALTER TABLE `spp`
-  MODIFY `id_spp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_spp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
@@ -275,15 +318,27 @@ ALTER TABLE `mahasiswa`
 -- Ketidakleluasaan untuk tabel `pembayaran`
 --
 ALTER TABLE `pembayaran`
-  ADD CONSTRAINT `pembayaran_ibfk_1` FOREIGN KEY (`id_petugas`) REFERENCES `petugas` (`id_petugas`),
-  ADD CONSTRAINT `pembayaran_ibfk_2` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`),
-  ADD CONSTRAINT `pembayaran_ibfk_3` FOREIGN KEY (`id_mahasiswa`) REFERENCES `mahasiswa` (`id_mahasiswa`);
+  ADD CONSTRAINT `fk_mahasiswa` FOREIGN KEY (`id_mahasiswa`) REFERENCES `mahasiswa` (`id_mahasiswa`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_spp` FOREIGN KEY (`id_spp`) REFERENCES `spp` (`id_spp`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Ketidakleluasaan untuk tabel `petugas`
 --
 ALTER TABLE `petugas`
   ADD CONSTRAINT `petugas_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id_user`) ON DELETE CASCADE;
+
+--
+-- Ketidakleluasaan untuk tabel `spp`
+--
+ALTER TABLE `spp`
+  ADD CONSTRAINT `fk_jurusan` FOREIGN KEY (`id_jurusan`) REFERENCES `jurusan` (`id_jurusan`) ON DELETE CASCADE;
+
+--
+-- Ketidakleluasaan untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  ADD CONSTRAINT `fk_transaksi_petugas` FOREIGN KEY (`id_petugas`) REFERENCES `users` (`id_user`) ON DELETE SET NULL,
+  ADD CONSTRAINT `transaksi_ibfk_1` FOREIGN KEY (`id_pembayaran`) REFERENCES `pembayaran` (`id_pembayaran`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -8,37 +8,27 @@ use CodeIgniter\Filters\FilterInterface;
 
 class RoleFilter implements FilterInterface
 {
-    public function before(RequestInterface $request, $arguments = null)
-    {
-        $session = session();
+  // app/Filters/RoleFilter.php
+public function before(RequestInterface $request, $arguments = null)
+{
+    $session = session();
 
-        // Cek apakah user sudah login
-        if (!$session->has('level')) {
-            return redirect()->to('/login');
-        }
-
-        $userLevel = $session->get('level');
-
-        // Jika role tidak sesuai
-        if ($arguments !== null && !in_array($userLevel, $arguments)) {
-            // Arahkan berdasarkan level pengguna
-            switch ($userLevel) {
-                case 'admin':
-                    return redirect()->to('/');
-                case 'petugas':
-                    return redirect()->to('/homePetugas');
-                case 'mahasiswa':
-                    return redirect()->to('/homeMahasiswa');
-                default:
-                    return redirect()->to('/login')->with('error', 'Role tidak dikenali.');
-            }
-        }
-
-        // Jika role sesuai, lanjutkan
+    // Jika belum login
+    if (!$session->has('level')) {
+        session()->setFlashdata('alert', ['error', 'Silakan login terlebih dahulu!']);
+        return redirect()->to('/login');
     }
+
+    // Jika tidak punya role yang sesuai
+    if ($arguments && !in_array($session->get('level'), $arguments)) {
+        session()->setFlashdata('alert', ['error', 'Akses ditolak. Anda tidak memiliki izin.']);
+        return redirect()->to('/login');
+    }
+}
+
 
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
     {
-        // Tidak digunakan
+        // No action needed
     }
 }

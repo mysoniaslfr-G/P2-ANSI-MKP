@@ -6,7 +6,7 @@
 
     <footer class="main-footer">
       <strong>&copy; MKP 2025 - UNIVERSITAS MUHAMMADIYAH BIMA.</strong>
-      All rights reserved.
+      Beatiful website.
     </footer>
 
     <!-- Control Sidebar -->
@@ -19,8 +19,10 @@
   <!-- ./wrapper -->
 
 
+
   <!-- jQuery -->
   <script src="<?= base_url('template/plugins/jquery/jquery.min.js') ?>"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <!-- DataTables  & Plugins -->
   <script src="<?= base_url('template/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
   <script src="<?= base_url('template/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') ?>"></script>
@@ -30,6 +32,7 @@
   <script src="<?= base_url('template/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
   <!-- AdminLTE App -->
   <script src="<?= base_url('template/js/adminlte.min.js') ?>"></script>
+
 
   <?php if (session()->getFlashdata('alert')): ?>
     <script>
@@ -53,19 +56,16 @@
     "lengthChange": false,
     "autoWidth": false
   }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-
-  // Inisialisasi DataTable untuk tabel dengan id example2
-  $("#example2").DataTable({
-    "paging": true,
-    "searching": true,
-    "ordering": true,
-    "info": true,
-    "autoWidth": false,
-    "responsive": true
-  });
 });
-
 </script>
+
+    <script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+
+
 
 </body>
 </html>

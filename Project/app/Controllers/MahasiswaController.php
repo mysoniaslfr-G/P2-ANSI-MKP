@@ -4,26 +4,30 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\MahasiswaModel;
-use App\Models\SppModel;
 use App\Models\JurusanModel;
-use App\Models\UserModel;
+use App\Models\SppModel;
 use App\Models\PembayaranModel;
-use App\Models\PetugasModel;
+use App\Models\TransaksiModel;
+use App\Models\UserModel;
 
 class MahasiswaController extends BaseController
 {
     protected $mahasiswaModel;
-    protected $pembayaranModel;
+    protected $jurusanModel;
     protected $sppModel;
-    
+    protected $pembayaranModel;
+    protected $transaksiModel;
 
     public function __construct()
     {
         $this->mahasiswaModel  = new MahasiswaModel();
-        $this->pembayaranModel = new PembayaranModel();
+        $this->jurusanModel    = new JurusanModel();
         $this->sppModel        = new SppModel();
+        $this->pembayaranModel = new PembayaranModel();
+        $this->transaksiModel  = new TransaksiModel();
     }
 
+    // ==================== INDEX ====================
     public function index()
     {
         $data = [
@@ -32,321 +36,277 @@ class MahasiswaController extends BaseController
         return view('mahasiswa/home', $data);
     }
 
+    // ==================== CREATE ====================
     public function create()
     {
-        $sppModel     = new SppModel();
-        $jurusanModel = new JurusanModel();
-        $petugasModel = new PetugasModel();
-
         $data = [
-            'spp'     => $sppModel->findAll(),
-            'jurusan' => $jurusanModel->findAll(),
-            'petugas' => $petugasModel->findAll(),
+            'spp'     => $this->sppModel->findAll(),
+            'jurusan' => $this->jurusanModel->findAll(),
         ];
-
         return view('mahasiswa/create', $data);
     }
 
-  public function store()
-{
-    $userModel = new UserModel();
-    $id_petugas = $this->request->getPost('id_petugas');
+    // ==================== STORE ====================
+    public function store()
+    {
+        $userModel  = new UserModel();
+        $id_petugas = session()->get('id_petugas');
+        $nim        = $this->request->getPost('nim');
+        $noTelepon  = $this->request->getPost('no_telepon_mahasiswa');
 
-    if (!$id_petugas) {
-        session()->setFlashdata('alert', ['info', 'Petugas belum dipilih.']);
-        return redirect()->back()->withInput();
+        if (strlen($nim) !== 9) {
+            return redirect()->back()->withInput()->with('alert', ['error', 'NIM harus terdiri dari 9 karakter.']);
+        }
+
+        if ($userModel->where('username', $nim)->first()) {
+            return redirect()->back()->withInput()->with('alert', ['error', 'NIM sudah digunakan.']);
+        }
+
+        if ($this->mahasiswaModel->where('no_telepon_mahasiswa', $noTelepon)->first()) {
+            return redirect()->back()->withInput()->with('alert', ['error', 'Nomor telepon sudah digunakan.']);
+        }
+
+        $userModel->insert([
+            'username' => $nim,
+            'password' => password_hash($nim, PASSWORD_DEFAULT),
+            'level'    => 'mahasiswa',
+            'gambar'   => 'avatar2.png'
+        ]);
+
+        $id_user = $userModel->getInsertID();
+
+        $this->mahasiswaModel->insert([
+            'id_user'              => $id_user,
+            'nim'                  => $nim,
+            'nama_mahasiswa'       => $this->request->getPost('nama_mahasiswa'),
+            'id_spp'               => $this->request->getPost('id_spp'),
+            'id_jurusan'           => $this->request->getPost('id_jurusan'),
+            'alamat_mahasiswa'     => $this->request->getPost('alamat_mahasiswa'),
+            'no_telepon_mahasiswa' => $noTelepon
+        ]);
+
+        $id_mahasiswa     = $this->mahasiswaModel->getInsertID();
+        $id_spp           = $this->request->getPost('id_spp');
+        $semesterDipilih  = $this->request->getPost('semester_aktif') ?? [];
+
+        foreach ($semesterDipilih as $semester) {
+            $this->pembayaranModel->insert([
+                'id_mahasiswa' => $id_mahasiswa,
+                'id_spp'       => $id_spp,
+                'semester'     => $semester,
+                'status'       => 'belum lunas'
+            ]);
+
+            $id_pembayaran = $this->pembayaranModel->getInsertID();
+            $this->transaksiModel->createTransaksiDefault($id_pembayaran, $id_petugas);
+        }
+
+        return redirect()->to('/mahasiswa/home')->with('alert', ['success', 'Data mahasiswa berhasil ditambahkan.']);
     }
 
-    $nim = $this->request->getPost('nim');
-    $noTelepon = $this->request->getPost('no_telepon_mahasiswa');
+    // ==================== EDIT ====================
+    public function edit($id)
+    {
+        $data = [
+            'mahasiswa'     => $this->mahasiswaModel->find($id),
+            'jurusan'       => $this->jurusanModel->findAll(),
+            'spp'           => $this->sppModel->findAll(),
+            'semesterAktif' => $this->pembayaranModel->where('id_mahasiswa', $id)->findColumn('semester'),
+        ];
 
-    // Cek apakah NIM sudah digunakan sebagai username
-    if ($userModel->where('username', $nim)->first()) {
-        session()->setFlashdata('alert', ['info', 'NIM tersebut sudah digunakan.']);
-        return redirect()->back()->withInput();
+        return view('mahasiswa/edit', $data);
     }
 
-    // Cek apakah no telepon sudah digunakan oleh mahasiswa lain
-    if ($this->mahasiswaModel->where('no_telepon_mahasiswa', $noTelepon)->first()) {
-        session()->setFlashdata('alert', ['info', 'Nomor telepon tersebut sudah digunakan.']);
-        return redirect()->back()->withInput();
-    }
-
-    // Insert user
-    $userModel->insert([
-        'username' => $nim,
-        'password' => password_hash($nim, PASSWORD_DEFAULT),
-        'level'    => 'mahasiswa',
-        'gambar'   => 'avatar2.png'
-    ]);
-
-    $id_user = $userModel->getInsertID();
-
-    // Insert mahasiswa
-    $this->mahasiswaModel->insert([
-        'id_user'              => $id_user,
-        'nim'                  => $nim,
-        'nama_mahasiswa'       => $this->request->getPost('nama_mahasiswa'),
-        'id_spp'               => $this->request->getPost('id_spp'),
-        'id_jurusan'           => $this->request->getPost('id_jurusan'),
-        'alamat_mahasiswa'     => $this->request->getPost('alamat_mahasiswa'),
-        'no_telepon_mahasiswa' => $noTelepon,
-        'id_petugas'           => $id_petugas,
-    ]);
-
-    $id_mahasiswa = $this->mahasiswaModel->getInsertID();
-    $id_spp = $this->request->getPost('id_spp');
-    $semesterDipilih = $this->request->getPost('semester_aktif') ?? [];
-
-    // Buat pembayaran
-    $this->pembayaranModel->createPembayaran($id_mahasiswa, $id_petugas, $id_spp, $semesterDipilih);
-
-    session()->setFlashdata('alert', ['success', 'Data mahasiswa berhasil ditambahkan.']);
-    return redirect()->to('/mahasiswa/home');
-}
-
-
-
+    // ==================== UPDATE ====================
    public function update($id)
 {
+    $nim          = $this->request->getPost('nim');
+    $nama         = $this->request->getPost('nama_mahasiswa');
+    $alamat       = $this->request->getPost('alamat_mahasiswa');
+    $no_hp        = $this->request->getPost('no_telepon_mahasiswa');
+    $id_jurusan   = $this->request->getPost('id_jurusan');
+    $id_spp       = $this->request->getPost('id_spp');
+    $semesterBaru = $this->request->getPost('semester_aktif') ?? [];
+    $id_petugas   = session()->get('id_petugas');
+
+    // Validasi NIM dan No HP tidak boleh sama dengan milik mahasiswa lain
+    if ($this->mahasiswaModel->where('nim', $nim)->where('id_mahasiswa !=', $id)->first()) {
+        return redirect()->back()->withInput()->with('error', 'NIM sudah digunakan.');
+    }
+
+    if ($this->mahasiswaModel->where('no_telepon_mahasiswa', $no_hp)->where('id_mahasiswa !=', $id)->first()) {
+        return redirect()->back()->withInput()->with('error', 'Nomor HP sudah digunakan.');
+    }
+
+    // Update data mahasiswa
+    $this->mahasiswaModel->update($id, [
+        'nim'                   => $nim,
+        'nama_mahasiswa'        => $nama,
+        'alamat_mahasiswa'      => $alamat,
+        'no_telepon_mahasiswa'  => $no_hp,
+        'id_jurusan'            => $id_jurusan,
+        'id_spp'                => $id_spp
+    ]);
+
+    // Update username di tabel user sesuai dengan nim terbaru
     $mahasiswa = $this->mahasiswaModel->find($id);
+    $id_user   = $mahasiswa['id_user'];
 
-    if (!$mahasiswa) {
-        session()->setFlashdata('alert', ['danger', 'Data mahasiswa tidak ditemukan.']);
-        return redirect()->to('/mahasiswa');
+    $userModel = new UserModel();
+    $userModel->update($id_user, ['username' => $nim]);
+
+    // Update data pembayaran dan transaksi jika semester berubah
+    $semesterLama = $this->pembayaranModel->where('id_mahasiswa', $id)->findColumn('semester') ?? [];
+    sort($semesterLama);
+    sort($semesterBaru);
+
+    if ($semesterLama !== $semesterBaru) {
+        $this->pembayaranModel->where('id_mahasiswa', $id)->delete();
+
+        foreach ($semesterBaru as $semester) {
+            $this->pembayaranModel->insert([
+                'id_mahasiswa' => $id,
+                'id_spp'       => $id_spp,
+                'semester'     => $semester,
+                'status'       => 'belum lunas',
+            ]);
+
+            $id_pembayaran = $this->pembayaranModel->getInsertID();
+            $this->transaksiModel->createTransaksiDefault($id_pembayaran, $id_petugas);
+        }
     }
 
-    $id_petugas = $this->request->getPost('id_petugas');
-    if (!$id_petugas) {
-        session()->setFlashdata('alert', ['danger', 'Petugas belum dipilih.']);
-        return redirect()->back()->withInput();
-    }
-
-    // Tambahkan validasi apakah id_petugas valid
-    $petugasModel = new \App\Models\PetugasModel(); // sesuaikan namespace/model
-    if (!$petugasModel->find($id_petugas)) {
-        session()->setFlashdata('alert', ['danger', 'Petugas tidak valid atau tidak ditemukan.']);
-        return redirect()->back()->withInput();
-    }
-
-    $nim = $this->request->getPost('nim');
-    if (!$nim) {
-        session()->setFlashdata('alert', ['danger', 'NIM belum diisi.']);
-        return redirect()->back()->withInput();
-    }
-
-    $data = [
-        'nim'                  => $nim,
-        'nama_mahasiswa'       => $this->request->getPost('nama_mahasiswa'),
-        'alamat_mahasiswa'     => $this->request->getPost('alamat_mahasiswa'),
-        'no_telepon_mahasiswa' => $this->request->getPost('no_telepon_mahasiswa'),
-        'id_spp'               => $this->request->getPost('id_spp'),
-        'id_jurusan'           => $this->request->getPost('id_jurusan'),
-        'id_petugas'           => $id_petugas,
-    ];
-
-    $this->mahasiswaModel->update($id, $data);
-
-    $semesterDipilih = $this->request->getPost('semester_aktif') ?? [];
-
-    if (empty($semesterDipilih)) {
-        session()->setFlashdata('alert', ['danger', 'Semester belum dipilih!']);
-        return redirect()->back()->withInput();
-    }
-
-    // Hapus data pembayaran lama
-    $this->pembayaranModel->where('id_mahasiswa', $id)->delete();
-
-    // Simpan data pembayaran baru
-    $id_spp = $this->request->getPost('id_spp');
-
-    // Pastikan method createPembayaran juga menerima dan memproses id_petugas dengan benar
-    $this->pembayaranModel->createPembayaran($id, $id_petugas, $id_spp, $semesterDipilih);
-
-
-    session()->setFlashdata('alert', ['success', 'Data mahasiswa berhasil diperbarui.']);
-    return redirect()->to('/mahasiswa');
+    return redirect()->to('/mahasiswa')->with('alert', ['success', 'Data mahasiswa berhasil diperbarui.']);
 }
 
-
-    public function detail($id)
+    // ==================== DELETE ====================
+    public function delete($id)
     {
         $mahasiswa = $this->mahasiswaModel->find($id);
 
-        if (!$mahasiswa) {
-            session()->setFlashdata('alert', ['danger', 'Data mahasiswa tidak ditemukan.']);
-            return redirect()->to('/mahasiswa');
+        if ($mahasiswa) {
+            $id_user = $mahasiswa['id_user'];
+
+            $this->pembayaranModel->where('id_mahasiswa', $id)->delete();
+            $this->mahasiswaModel->delete($id);
+            (new UserModel())->delete($id_user);
+
+            return redirect()->to('/mahasiswa')->with('alert', ['success', 'Data mahasiswa berhasil dihapus.']);
         }
 
-        $sppModel = new SppModel();
+        return redirect()->to('/mahasiswa')->with('alert', ['error', 'Data mahasiswa tidak ditemukan.']);
+    }
 
-        $spp = $sppModel->find($mahasiswa['id_spp']);
+    // ==================== DETAIL ====================
+    public function detail($id)
+    {
+        $mahasiswa = $this->mahasiswaModel->getMahasiswaJoin($id);
+
+        $pembayaranList = $this->pembayaranModel
+            ->select('pembayaran.*, spp.tahun, spp.nominal')
+            ->join('spp', 'spp.id_spp = pembayaran.id_spp', 'left')
+            ->where('pembayaran.id_mahasiswa', $id)
+            ->findAll();
+
+        foreach ($pembayaranList as &$p) {
+            $transaksi = $this->transaksiModel->getTransaksiByPembayaran($p['id_pembayaran']);
+            $p['jumlah_bayar'] = 0;
+            $p['transaksi'] = [];
+
+            foreach ($transaksi as $t) {
+                $p['jumlah_bayar'] += (int) $t['jumlah_bayar'];
+                $p['transaksi'][] = $t;
+            }
+        }
 
         $data = [
-            'profil'     => $this->mahasiswaModel->getMahasiswaJoin($id),
-            'mahasiswa'  => $mahasiswa,
-            'pembayaran' => $this->pembayaranModel->getPembayaranByMahasiswa($id),
-            'spp'        => $spp,
-            'sppList'    => $sppModel->findAll(), // hapus parameter $id yang tidak ada
+            'mahasiswa' => $mahasiswa,
+            'profil'    => $mahasiswa,
+            'pembayaran'=> $pembayaranList
         ];
 
         return view('mahasiswa/detail', $data);
     }
 
-    public function edit($id)
-{
-    $mahasiswa = $this->mahasiswaModel->find($id);
-
-
-    if (!$mahasiswa) {
-        session()->setFlashdata('alert', ['danger', 'Data mahasiswa tidak ditemukan.']);
-        return redirect()->to('/mahasiswa');
-    }
-
-    $sppModel     = new SppModel();
-    $jurusanModel = new JurusanModel();
-    $petugasModel = new PetugasModel();
-
-    // Ambil semester aktif mahasiswa, contoh: ['Semester 1', 'Semester 2']
-    $semesterAktif = $this->pembayaranModel->where('id_mahasiswa', $id)->findColumn('semester');
-
-    $data = [
-        'mahasiswa'         => $mahasiswa,
-        'spp'               => $sppModel->findAll(),
-        'jurusan'           => $jurusanModel->findAll(),
-        'petugas'           => $petugasModel->findAll(),
-        'semesterAktif'     => $semesterAktif,
-    ];
-
-    return view('mahasiswa/edit', $data);
-}
-
-
-public function saveSPP()
-{
-    $pembayaranModel = new PembayaranModel();
-
-    $id_mahasiswa = $this->request->getPost('id_mahasiswa');
-    $id_petugas   = $this->request->getPost('id_petugas'); // ambil dari input form
-    $id_spp       = $this->request->getPost('id_spp');
-    $semesters    = $this->request->getPost('semester');
-    $tahun_spp    = $this->getTahunSPP($id_spp);
-    $tanggal_bayar = date('Y-m-d');
-
-    if (!$id_petugas) {
-        return redirect()->back()->with('error', 'Petugas harus dipilih.');
-    }
-
-    if (!$semesters || count($semesters) === 0) {
-        return redirect()->back()->with('error', 'Minimal satu semester harus dipilih.');
-    }
-
-    // Validasi apakah id_petugas valid di database
-    $petugasModel = new PetugasModel();
-    $petugas = $petugasModel->find($id_petugas);
-    if (!$petugas) {
-        return redirect()->back()->with('error', 'Petugas tidak valid.');
-    }
-
-    $existing = $pembayaranModel->where('id_mahasiswa', $id_mahasiswa)
-                                ->where('id_spp', $id_spp)
-                                ->findAll();
-    $existing_semesters = array_column($existing, 'semester');
-
-    $inserted_count = 0;
-
-    foreach ($semesters as $semester) {
-        if (!in_array($semester, $existing_semesters)) {
-            $pembayaranModel->insert([
-                'id_petugas'    => $id_petugas,
-                'id_mahasiswa'  => $id_mahasiswa,
-                'id_spp'        => $id_spp,
-                'semester'      => $semester,
-                'tahun_spp'     => $tahun_spp,
-                'tanggal_bayar' => $tanggal_bayar
-            ]);
-            $inserted_count++;
-        }
-    }
-
-    if ($inserted_count > 0) {
-        session()->setFlashdata('alert', ['success', "$inserted_count data SPP berhasil ditambahkan."]);
-    } else {
-        session()->setFlashdata('alert', ['info', "Tidak ada semester baru yang ditambahkan."]);
-    }
-
-    return redirect()->to('/mahasiswa/detail/' . $id_mahasiswa);
-}
-
-
-
-    private function getTahunSPP($id_spp)
+    // ==================== ADD ====================
+    public function add($id)
     {
-        $sppModel = new SppModel();
-        $spp      = $sppModel->find($id_spp);
-        return $spp ? $spp['tahun'] : null;
+        $mahasiswa = $this->mahasiswaModel->find($id);
+
+        if (!$mahasiswa) {
+            return redirect()->to('/mahasiswa')->with('alert', ['error', 'Mahasiswa tidak ditemukan.']);
+        }
+
+        $sudah_terisi = model('PembayaranModel')
+            ->select('semester')
+            ->where('id_mahasiswa', $id)
+            ->findAll();
+
+        $semester_terisi = array_column($sudah_terisi, 'semester');
+
+        $data = [
+            'mahasiswa'    => $mahasiswa,
+            'spp'          => $this->sppModel->findAll(),
+            'jurusan'      => $this->jurusanModel->findAll(),
+            'sudah_terisi' => $semester_terisi
+        ];
+
+        return view('mahasiswa/add', $data);
     }
 
-public function fromAdd($id_mahasiswa)
-{
-    $mahasiswaModel = new MahasiswaModel();
-    $pembayaranModel = new PembayaranModel();
-    $petugasModel = new PetugasModel();
-    $sppModel = new SppModel();  // Tambahkan model SPP
+    // ==================== SAVE SPP ====================
+    public function saveSPP()
+    {
+        $id_mahasiswa     = $this->request->getPost('id_mahasiswa');
+        $id_spp           = $this->request->getPost('id_spp');
+        $semesterDipilih  = $this->request->getPost('semester') ?? [];
+        $id_petugas       = session()->get('id_petugas');
 
-    // Ambil data mahasiswa
-    $mahasiswa = $mahasiswaModel->find($id_mahasiswa);
+        $semesterTersimpan = $this->pembayaranModel
+            ->where('id_mahasiswa', $id_mahasiswa)
+            ->findColumn('semester') ?? [];
 
-    // Dapatkan ID SPP
-    $id_spp = $mahasiswa['id_spp'];
+        $semesterBaru = array_diff($semesterDipilih, $semesterTersimpan);
 
-    $tahun = $this->getTahunSPP($id_spp);
+        foreach ($semesterBaru as $semester) {
+            $this->pembayaranModel->insert([
+                'id_mahasiswa' => $id_mahasiswa,
+                'id_spp'       => $id_spp,
+                'semester'     => $semester
+            ]);
 
-    $sudah_terisi = $pembayaranModel->where('id_mahasiswa', $id_mahasiswa)
-                                    ->where('id_spp', $id_spp)
-                                    ->findColumn('semester');
+            $id_pembayaran = $this->pembayaranModel->getInsertID();
+            $this->transaksiModel->createTransaksiDefault($id_pembayaran, $id_petugas);
+        }
 
-    // Ambil data petugas
-    $petugas = $petugasModel->findAll();
-
-    // Ambil data spp
-    $spp = $sppModel->findAll();
-
-    return view('mahasiswa/formAdd', [
-        'mahasiswa'     => $mahasiswa,
-        'id_spp'        => $id_spp,
-        'sudah_terisi'  => $sudah_terisi ?? [],
-        'petugas'       => $petugas,
-        'spp'           => $spp,   // Kirim data spp ke view
-    ]);
-}
-
-
-
-
-    public function delete($id)
-{
-    $mahasiswa = $this->mahasiswaModel->find($id);
-
-    if (!$mahasiswa) {
-        session()->setFlashdata('alert', ['info', 'Data mahasiswa tidak ditemukan.']);
-        return redirect()->back();
+        return redirect()->to('/mahasiswa/detail/' . $id_mahasiswa)->with('alert', ['success', 'Data SPP berhasil ditambahkan.']);
     }
 
-    $id_user = $mahasiswa['id_user'];
+    // ==================== RESET PASSWORD ====================
+    public function reset($id_user)
+    {
+        $mahasiswa = $this->mahasiswaModel->where('id_user', $id_user)->first();
 
-    // Hapus semua pembayaran terkait mahasiswa
-    $this->pembayaranModel->where('id_mahasiswa', $id)->delete();
+        if (!$mahasiswa) {
+            return redirect()->to('/mahasiswa')->with('alert', ['error', 'Mahasiswa tidak ditemukan.']);
+        }
 
-    // Hapus data mahasiswa
-    $this->mahasiswaModel->delete($id);
+        $nim = $mahasiswa['nim'];
+        (new UserModel())->update($id_user, [
+            'password' => password_hash($nim, PASSWORD_DEFAULT)
+        ]);
 
-    // Hapus user terkait
-    $userModel = new UserModel();
-    $userModel->delete($id_user);
+        return redirect()->to('/mahasiswa')->with('alert', ['success', 'Password berhasil direset.']);
+    }
 
-    session()->setFlashdata('alert', ['success', 'Data berhasil dihapus.']);
-    return redirect()->to('/mahasiswa/home');
-}
+    // ==================== GET SPP BY JURUSAN ====================
+    public function getSppByJurusan($id_jurusan)
+    {
+        if (!$this->request->isAJAX()) {
+            return $this->response->setStatusCode(403)->setJSON(['error' => 'Forbidden']);
+        }
 
+        $data = $this->sppModel->where('id_jurusan', $id_jurusan)->findAll();
+        return $this->response->setJSON($data);
+    }
 }

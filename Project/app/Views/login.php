@@ -19,7 +19,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <b>MKP </b>2025
+    Sistem Monitoring<br>  <b> Keuangan & Pembayaran</b>
   </div>
   <!-- /.login-logo -->
   <div class="card">

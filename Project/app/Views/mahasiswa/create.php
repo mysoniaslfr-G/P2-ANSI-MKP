@@ -49,35 +49,24 @@
             <div class="card-body">
 
               <div class="form-group">
-                <label for="id_jurusan">Jurusan</label>
-                <select id="id_jurusan" name="id_jurusan" class="form-control custom-select">
+                <label for="id_jurusan">Prodi</label>
+                <select id="id_jurusan" name="id_jurusan" class="form-control custom-select" required>
+                  <option selected disabled>-- Pilih Prodi --</option>
                   <?php foreach ($jurusan as $j): ?>
                       <option value="<?= $j['id_jurusan']; ?>">
-                          <?= $j['nama_jurusan']; ?> - <?= $j['konsentrasi']; ?>
+                          <?= esc($j['kode_prodi']); ?> - <?= esc($j['nama_prodi']); ?>
                       </option>
                   <?php endforeach; ?>
-              </select>
-              </div>
-
-               <div class="form-group">
-                 <label for="id_jurusan">Petugas</label>
-              <select name="id_petugas" class="form-control">
-                <?php foreach ($petugas as $p): ?>
-                    <option value="<?= $p['id_petugas']; ?>"><?= $p['nama_petugas']; ?></option>
-                <?php endforeach; ?>
-              </select>
+                </select>
               </div>
 
               <div class="form-group">
                 <label for="id_spp">SPP</label>
-                <select id="id_spp" name="id_spp" class="form-control custom-select">
-                  <?php foreach ($spp as $s): ?>
-                    <option value="<?= $s['id_spp']; ?>"><?= $s['tahun'] ?></option>
-                  <?php endforeach ?>
+                <select id="id_spp" name="id_spp" class="form-control custom-select" required>
+                  <option selected disabled>-- Pilih Jurusan Terlebih Dahulu --</option>
                 </select>
               </div>
 
-              <!-- PERBAIKAN TAMPILAN SEMESTER -->
               <div class="form-group">
                 <label>Semester Aktif Tahun Ini</label>
                 <div class="row">
@@ -92,7 +81,6 @@
                 </div>
                 <small class="form-text text-muted">Pilih satu atau lebih semester yang aktif tahun ini.</small>
               </div>
-              <!-- END PERBAIKAN -->
               
             </div>
           </div>
@@ -106,4 +94,33 @@
         </div>
       </div>
 </form>
+
+<!-- SCRIPT DINAMIS DROPDOWN SPP -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const jurusanSelect = document.getElementById('id_jurusan');
+  const sppSelect = document.getElementById('id_spp');
+
+  jurusanSelect.addEventListener('change', function () {
+    const idJurusan = this.value;
+    sppSelect.innerHTML = '<option selected disabled>Loading...</option>';
+
+    fetch('<?= base_url("getSppByJurusan") ?>/' + idJurusan)
+      .then(response => response.json())
+      .then(data => {
+        sppSelect.innerHTML = '<option selected disabled>-- Pilih Tahun SPP --</option>';
+        data.forEach(item => {
+          const option = document.createElement('option');
+          option.value = item.id_spp;
+          option.textContent = item.tahun;
+          sppSelect.appendChild(option);
+        });
+      })
+      .catch(() => {
+        sppSelect.innerHTML = '<option disabled selected>Gagal memuat data</option>';
+      });
+  });
+});
+</script>
+
 <?= $this->include('tamplate/footer') ?>

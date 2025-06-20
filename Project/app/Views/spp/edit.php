@@ -9,6 +9,25 @@
                 <input type="hidden" name="_method" value="PUT"> <!-- Spoofing method to PUT -->
 
                 <div class="form-group">
+                    <label for="id_jurusan">Kode Prodi</label>
+                    <select id="id_jurusan" name="id_jurusan" class="form-control" required>
+                        <option value="">Pilih Kode Prodi</option>
+                        <?php if (isset($jurusan) && is_array($jurusan)) : ?>
+                            <?php foreach ($jurusan as $row): ?>
+                                <option value="<?= esc($row['id_jurusan']) ?>" 
+                                    <?= ($row['id_jurusan'] == $spp['id_jurusan']) ? 'selected' : '' ?>>
+                                    <?= esc($row['kode_prodi']) ?> - <?= esc($row['nama_prodi']) ?> <!-- Menambahkan nama prodi -->
+                                </option>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <option value="">Tidak ada jurusan.</option>
+                        <?php endif; ?>
+                    </select>
+                </div>
+
+
+
+                <div class="form-group">
                     <label for="tahun">Tahun</label>
                     <input type="number" id="tahun" name="tahun" class="form-control" 
                            value="<?= esc($spp['tahun']) ?>" required>

@@ -9,7 +9,14 @@ class Home extends BaseController
         $data = [
             'path' => ucfirst($path) 
         ];
-        return view('homeAdmin', $data);
+        return view('/login', $data);
+    }
+    public function admin()
+    {
+        $data = [
+             'path' => 'Admin Home'
+        ];
+        return view('Admin', $data);
     }
 
     public function mahasiswa()
@@ -17,7 +24,7 @@ class Home extends BaseController
         $data = [
             'path' => 'Mahasiswa Home'
         ];
-        return view('homeMahasiswa', $data); 
+        return view('Mahasiswa', $data); 
     }
 
     public function petugas()
@@ -25,7 +32,7 @@ class Home extends BaseController
         $data = [
             'path' => 'Petugas Home'
         ];
-        return view('homePetugas', $data); 
+        return view('Petugas', $data); 
     }
     public function profil()
     {
@@ -33,13 +40,6 @@ class Home extends BaseController
             'path' => 'Profil Home'
         ];
         return view('/profil/home', $data); 
-    }
-    public function profilMahasiswa()
-    {
-        $data = [
-            'path' => 'Profil Mahasiswa'
-        ];
-        return view('/profil/mahasiswa', $data); 
     }
 
     public function pembayaran()
@@ -55,13 +55,6 @@ class Home extends BaseController
             'path' => 'Input Home'
         ];
         return view('/pembayaran/input', $data); 
-    }
-    public function laporan()
-    {
-        $data = [
-            'path' => 'laporan Home'
-        ];
-        return view('/pembayaran/laporan', $data); 
     }
 
 }

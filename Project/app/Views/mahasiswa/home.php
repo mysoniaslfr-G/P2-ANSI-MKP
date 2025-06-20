@@ -15,7 +15,8 @@
                 <th>#</th>
                 <th>NIM</th>
                 <th>Nama Lengkap</th>
-                <th>Jurusan</th>
+                <th>Kode Prodi</th> <!-- Kolom baru kode prodi sebelum prodi -->
+                <th>Prodi</th> <!-- Menghapus konsentrasi, menampilkan prodi -->
                 <th>Photo</th>
                 <th>Aksi</th>
               </tr>
@@ -26,10 +27,8 @@
                   <td><?= $no++; ?></td>
                   <td><?= esc($m['nim']); ?></td>
                   <td><?= esc($m['nama_mahasiswa']); ?></td>
-                  <td>
-                    <?= esc($m['nama_jurusan']) ?>
-                    <?= isset($m['konsentrasi']) && $m['konsentrasi'] !== '' ? '-' . esc($m['konsentrasi']) : '' ?>
-                  </td>
+                  <td><?= esc($m['kode_prodi']) ?></td> <!-- Menampilkan kode prodi -->
+                  <td><?= esc($m['nama_prodi']) ?></td> <!-- Menampilkan prodi -->
                   <td>
                      <img src="<?= base_url('public/img/' . (!empty($m['gambar']) ? $m['gambar'] : 'avatar2.png')) ?>" width="60" class="img-circle elevation-2">
                   </td>
@@ -46,7 +45,8 @@
                 <th>#</th>
                 <th>NIM</th>
                 <th>Nama Lengkap</th>
-                <th>Jurusan</th>
+                <th>Kode Prodi</th>
+                <th>Prodi</th>
                 <th>Photo</th>
                 <th>Aksi</th>
               </tr>

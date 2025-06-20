@@ -13,35 +13,34 @@ class JurusanController extends Controller
     {
         $this->jurusanModel = new JurusanModel();
         helper(['form']);
-        
     }
 
     public function index()
     {
         $data['jurusan'] = $this->jurusanModel->findAll();
-        return view('jurusan/home', $data);
+        return view('prodi/home', $data);
     }
 
     public function create()
     {
-        return view('jurusan/create');
+        return view('prodi/create');
     }
 
     public function store()
     {
         $data = [
-            'nama_jurusan' => $this->request->getPost('nama_jurusan'),
-            'konsentrasi'  => $this->request->getPost('konsentrasi'),
+            'nama_prodi' => $this->request->getPost('nama_prodi'), // Mengganti nama_jurusan dengan nama_prodi
+            'kode_prodi' => $this->request->getPost('kode_prodi'), // Mengganti konsentrasi dengan kode_prodi
         ];
 
         // Simpan data ke model
         $this->jurusanModel->save($data);
 
         // Set flashdata untuk alert sukses
-        session()->setFlashdata('alert', ['success', 'Data jurusan berhasil ditambahkan']);
+        session()->setFlashdata('alert', ['success', 'Data prodi berhasil ditambahkan']); // Mengganti jurusan menjadi prodi
 
         // Redirect kembali ke halaman jurusan
-        return redirect()->to('/jurusan');
+        return redirect()->to('/prodi');
     }
 
     public function edit($id)
@@ -50,50 +49,46 @@ class JurusanController extends Controller
         $jurusan = $this->jurusanModel->find($id);
         if (!$jurusan) {
             // Jika tidak ditemukan, redirect ke halaman jurusan dengan pesan error
-            session()->setFlashdata('alert', ['error', 'Data jurusan tidak ditemukan']);
-            return redirect()->to('/jurusan');
+            session()->setFlashdata('alert', ['error', 'Data prodi tidak ditemukan']); // Mengganti jurusan menjadi prodi
+            return redirect()->to('/prodi');
         }
 
         // Jika ada, tampilkan form edit dengan data
         $data['jurusan'] = $jurusan;
-        return view('jurusan/edit', $data);
+        return view('prodi/edit', $data);
     }
 
-   public function update($id)
-{
-    // Validasi data yang diterima
-    if ($this->validate([
-        'nama_jurusan' => 'required|min_length[3]|max_length[255]',
-        'konsentrasi'  => 'required|min_length[3]|max_length[255]',
-    ])) {
-        // Ambil data dari form
-        $data = [
-            'nama_jurusan' => $this->request->getPost('nama_jurusan'),
-            'konsentrasi'  => $this->request->getPost('konsentrasi'),
-        ];
+    public function update($id)
+    {
+        // Validasi data yang diterima
+        if ($this->validate([
+            'nama_prodi' => 'required|min_length[3]|max_length[255]', // Mengganti nama_jurusan dengan nama_prodi
+            'kode_prodi' => 'required|min_length[3]|max_length[255]', // Mengganti konsentrasi dengan kode_prodi
+        ])) {
+            // Ambil data dari form
+            $data = [
+                'nama_prodi' => $this->request->getPost('nama_prodi'), // Mengganti nama_jurusan dengan nama_prodi
+                'kode_prodi' => $this->request->getPost('kode_prodi'), // Mengganti konsentrasi dengan kode_prodi
+            ];
 
-        // Membuat instance dari JurusanModel
-        $jurusanModel = new JurusanModel();
+            // Update data berdasarkan ID
+            $this->jurusanModel->update($id, $data);
 
-        // Update data berdasarkan ID
-        $jurusanModel->update($id, $data);
-
-        // Setelah berhasil, beri pesan flash dan redirect ke halaman utama
-        session()->setFlashdata('alert', ['success', 'Data jurusan berhasil diperbarui']);
-        return redirect()->to('/jurusan');
-    } else {
-        // Jika validasi gagal, tampilkan pesan error
-        session()->setFlashdata('alert', ['error', 'Data tidak valid']);
-        return redirect()->back()->withInput();
+            // Setelah berhasil, beri pesan flash dan redirect ke halaman utama
+            session()->setFlashdata('alert', ['success', 'Data prodi berhasil diperbarui']); // Mengganti jurusan menjadi prodi
+            return redirect()->to('/prodi');
+        } else {
+            // Jika validasi gagal, tampilkan pesan error
+            session()->setFlashdata('alert', ['error', 'Data tidak valid']);
+            return redirect()->back()->withInput();
+        }
     }
-}
-
 
     public function delete($id)
     {
         // Hapus data jurusan
         $this->jurusanModel->delete($id);
-        session()->setFlashdata('alert', ['success', 'Data jurusan berhasil dihapus']);
-        return redirect()->to('/jurusan');
+        session()->setFlashdata('alert', ['success', 'Data prodi berhasil dihapus']); // Mengganti jurusan menjadi prodi
+        return redirect()->to('/prodi');
     }
 }

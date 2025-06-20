@@ -1,0 +1,1514 @@
+DEBUG - 2025-06-12 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:53:58 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:53:58 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:53:58 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:54:02 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:54:02 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:54:02 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:55:36 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:55:36 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:55:36 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:57:00 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:57:00 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:57:00 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:57:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:57:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:57:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:58:04 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\PetugasController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\PetugasController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 02:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 02:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 02:58:17 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:58:17 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 02:58:18 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:45:01 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:48:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 03:48:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:49:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 03:49:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\pdf.php on line 66.
+ 1 APPPATH\Views\laporan\pdf.php(66): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\pdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/pdf', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(45): view('laporan/pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:52:21 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:52:43 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:54:06 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 03:54:06 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:54:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 03:54:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:54:57 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 03:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:57:35 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 03:57:39 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\ProfilController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfilController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 03:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 04:00:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+WARNING - 2025-06-12 04:00:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\laporan\keuangan.php on line 41.
+ 1 APPPATH\Views\laporan\keuangan.php(41): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Views\\laporan\\keuangan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('laporan/keuangan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(30): view('laporan/keuangan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 04:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 11:43:47 --> mysqli_sql_exception: Column 'id_petugas' cannot be null in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-12 11:43:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_petugas' cannot be null
+[Method: POST, Route: pembayaran/input/bayar]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 11:43:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_petugas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749728627_1e5f809284ef32df667a.jpg\', \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749728627_1e5f809284ef32df667a.jpg\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 11:43:47 --> [Caused by] mysqli_sql_exception: Column 'id_petugas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749728627_1e5f809284ef32df667a.jpg\', \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749728627_1e5f809284ef32df667a.jpg\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749728627_1e5f809284ef32df667a.jpg\', \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 11:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 11:53:52 --> mysqli_sql_exception: Column 'id_petugas' cannot be null in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-12 11:53:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_petugas' cannot be null
+[Method: POST, Route: pembayaran/input/bayar]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 11:53:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_petugas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749729232_831b41f9680459d8c8d1.jpg\', \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749729232_831b41f9680459d8c8d1.jpg\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 11:53:52 --> [Caused by] mysqli_sql_exception: Column 'id_petugas' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749729232_831b41f9680459d8c8d1.jpg\', \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749729232_831b41f9680459d8c8d1.jpg\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (NULL, \'6\', \'27\', \'2025-06-12\', \'Semester 2\', \'1700000\', \'1749729232_831b41f9680459d8c8d1.jpg\', \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembayaran` (`id_petugas`, `id_spp`, `id_mahasiswa`, `tgl_bayar`, `semester`, `jumlah_bayar`, `bukti_bayar`, `status`) VALUES (:id_petugas:, :id_spp:, :id_mahasiswa:, :tgl_bayar:, :semester:, :jumlah_bayar:, :bukti_bayar:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pembayaran.php(143): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->bayar()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 11:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 11:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 12:57:30 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembaya...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('40')
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('40')
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-12 12:57:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: mahasiswa/detail/40]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('40')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('40')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 12:57:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'40\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'40\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('40')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('40')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 12:57:30 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'40\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'40\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'40\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('40')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('40')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 12:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 12:57:37 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembaya...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-12 12:57:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: mahasiswa/detail/27]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 12:57:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 12:57:37 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = \'27\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pembayaran`.*, `spp`.`tahun`, `spp`.`nominal`, `petugas`.`nama_petugas`
+FROM `pembayaran`
+JOIN `spp` ON `spp`.`id_spp` = `pembayaran`.`id_spp`
+JOIN `petugas` ON `petugas`.`id_petugas` = `pembayaran`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = :pembayaran.id_mahasiswa:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PembayaranModel.php(79): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MahasiswaController.php(188): App\Models\PembayaranModel->getPembayaranByMahasiswa('27')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->detail('27')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 12:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 12:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-12 12:57:47 --> [DEPRECATED] Optional parameter $joins declared before required parameter $id_petugas is implicitly treated as a required parameter in APPPATH\Models\PetugasModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\app\\Models\\PetugasModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PetugasModel')
+ 4 APPPATH\Controllers\MahasiswaController.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PetugasModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MahasiswaController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 13:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 13:51:39 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 13:51:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 13:51:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 13:51:39 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 14:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 14:04:32 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 14:04:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:04:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:04:32 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 14:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 14:04:35 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 14:04:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:04:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:04:35 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 14:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 14:05:18 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 14:05:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:05:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:05:18 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 14:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 14:05:20 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 14:05:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:05:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:05:20 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+DEBUG - 2025-06-12 14:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-12 14:06:02 --> mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause' in D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\P2-ANSI-MKP\Project\app\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic(Array, 'pembayaran.id_m...')
+#6 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+#7 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\P2-ANSI-MKP\Project\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\P2-ANSI-MKP\Project\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-06-12 14:06:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+[Method: GET, Route: pembayaran/show]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 2 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:06:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 4 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')
+CRITICAL - 2025-06-12 14:06:02 --> [Caused by] mysqli_sql_exception: Unknown column 'pembayaran.id_petugas' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pembayaran`
+JOIN `spp` ON `pembayaran`.`id_spp` = `spp`.`id_spp`
+JOIN `petugas` ON `pembayaran`.`id_petugas` = `petugas`.`id_petugas`
+WHERE `pembayaran`.`id_mahasiswa` = 27', [], false)
+ 5 APPPATH\Models\PembayaranModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pembayaran.php(40): App\Models\PembayaranModel->getJoinAllStatic([...], 'pembayaran.id_mahasiswa = 27')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pembayaran->show()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\P2-ANSI-MKP\\Project\\public\\index.php')

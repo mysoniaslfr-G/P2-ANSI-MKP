@@ -34,8 +34,8 @@
 
             <?php if ($profil['level'] === 'Mahasiswa'): ?>
               <li class="list-group-item d-flex justify-content-between">
-                <b>Jurusan</b>
-                <span class="badge badge-info"><?= esc($profil['nama_jurusan'] ?? '-') ?></span>
+                <b>Prodi</b>
+                <span class="badge badge-info"><?= esc($profil['nama_prodi'] ?? '-') ?></span>
               </li>
               <li class="list-group-item d-flex justify-content-between">
                 <b>Tahun SPP</b>
@@ -61,7 +61,7 @@
               <a class="nav-link <?= $tab === 'profil' ? 'active' : '' ?>" href="?tab=profil">Foto Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link <?= $tab === 'settings' ? 'active' : '' ?>" href="?tab=settings">Settings</a>
+              <a class="nav-link <?= $tab === 'settings' ? 'active' : '' ?>" href="?tab=settings">Update Profil</a>
             </li>
           </ul>
         </div>
@@ -119,7 +119,7 @@
 
                 <div class="form-group row">
                   <div class="offset-sm-2 col-sm-10">
-                    <button type="submit" class="btn btn-danger">Submit</button>
+                    <button type="submit" class="btn btn-primary">Perbarui Data</button>
                   </div>
                 </div>
               </form>

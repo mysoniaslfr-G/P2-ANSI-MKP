@@ -57,14 +57,16 @@ class LoginController extends Controller
             return redirect()->to('/login');
         }
 
-        // Set session login
-        session()->set([
-            'isLoggedIn' => true,
-            'id_user'    => $user['id_user'],
-            'username'   => $user['username'],
-            'level'      => $user['level'],
-            'gambar'     => $user['gambar'],
-        ]);
+                    // Set session login
+                session()->set([
+                'isLoggedIn' => true,
+                'id_petugas' => $user['id_user'], 
+                'id_user'    => $user['id_user'],
+                'username'   => $user['username'],
+                'level'      => $user['level'],
+                'gambar'     => $user['gambar'],
+            ]);
+
 
         // Remember Me - Lebih Aman (Token random + hash di DB)
         if ($remember) {
@@ -85,11 +87,34 @@ class LoginController extends Controller
             delete_cookie('remember_token');
         }
 
-        session()->setFlashdata('alert', ['success', 'Login berhasil!']);
+        session()->setFlashdata('alert', ['success', 'Selamat datang!']);
         return $this->redirectByLevel($user['level']);
     }
 
-    public function logout()
+    private function redirectByLevel($level)
+    {
+        switch (strtolower($level)) {
+            case 'admin':
+                return redirect()->to('Admin');
+            case 'petugas':
+                return redirect()->to('Petugas');
+            case 'mahasiswa':
+                return redirect()->to('Mahasiswa');
+            default:
+                return redirect()->to('/login');
+        }
+    }
+
+    public function redirectBySession()
+    {
+        if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/login');
+        }
+
+        return $this->redirectByLevel(session()->get('level'));
+    }
+
+     public function logout()
     {
         $userModel = new UserModel();
         $username = session()->get('username');
@@ -107,30 +132,9 @@ class LoginController extends Controller
         delete_cookie('remember_token');
         session()->destroy();
 
-        session()->setFlashdata('alert', ['success', 'Logout berhasil!']);
+        session()->setFlashdata('alert', ['success', 'Log Out berhasil!']);
         return redirect()->to('/login');
     }
 
-    private function redirectByLevel($level)
-    {
-        switch (strtolower($level)) {
-            case 'admin':
-                return redirect()->to('/homeAdmin');
-            case 'petugas':
-                return redirect()->to('/homePetugas');
-            case 'mahasiswa':
-                return redirect()->to('/homeMahasiswa');
-            default:
-                return redirect()->to('/login');
-        }
-    }
-
-    public function redirectBySession()
-    {
-        if (!session()->get('isLoggedIn')) {
-            return redirect()->to('/login');
-        }
-
-        return $this->redirectByLevel(session()->get('level'));
-    }
+    
 }

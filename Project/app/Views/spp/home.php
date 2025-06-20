@@ -12,6 +12,8 @@
             <thead>
               <tr>
                 <th>#</th>
+                <th>Kode Prodi</th>
+                <th>Nama Prodi</th> <!-- Menambahkan kolom Nama Prodi -->
                 <th>Tahun</th>
                 <th>Nominal</th>
                 <th>AKSI</th>
@@ -21,7 +23,9 @@
               <?php if (isset($spp) && is_array($spp)) : ?>
                 <?php foreach ($spp as $row): ?>
                   <tr>
-                    <td><?= $no; ?></td>
+                    <td><?= $no++; ?></td>
+                    <td><?= esc($row['kode_prodi']) ?></td>
+                    <td><?= esc($row['nama_prodi']) ?></td> <!-- Menambahkan data Nama Prodi -->
                     <td><?= esc($row['tahun']) ?></td>
                     <td>Rp<?= number_format($row['nominal'], 0, ',', '.') ?></td>
                     <td>
@@ -32,15 +36,16 @@
                       </form>
                     </td>
                   </tr>
-                  <?php $no++; ?>
                 <?php endforeach; ?>
               <?php else: ?>
-                <tr><td colspan="4">Tidak ada data.</td></tr>
+                <tr><td colspan="6" class="text-center">Tidak ada data.</td></tr> <!-- Mengubah colspan menjadi 6 -->
               <?php endif ?>
             </tbody>
             <tfoot>
               <tr>
                 <th>#</th>
+                <th>Kode Prodi</th>
+                <th>Nama Prodi</th> <!-- Menambahkan kolom Nama Prodi di footer -->
                 <th>Tahun</th>
                 <th>Nominal</th>
                 <th>AKSI</th>
